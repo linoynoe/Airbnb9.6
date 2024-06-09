@@ -1,0 +1,213 @@
+.signup-form {
+    margin: 10%;
+    padding: 5%;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+a {
+    color: #173042;
+}
+
+/* Home */
+
+.background-image {
+    width: 100%;
+    height: 60vh;
+    background-image: url('../CardImgOverlay.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    padding: 200px 20px;
+    color: white;
+}
+
+.content h2 {
+    font-size: 3rem;
+}
+
+.content p {
+    font-size: 1.2rem;
+}
+
+
+/* Business Profile */
+
+.profile-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.profile-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.profile-part:nth-child(1) {
+    width: 40%;
+}
+
+.profile-part:nth-child(2) {
+    width: 25%;
+}
+
+.profile-part:nth-child(3) {
+    width: 25%;
+}
+
+.profile-part {
+    background-color: #fff;
+    box-shadow: rgba(192, 189, 189, 0.096) 0px 0px 0px 2px, rgba(6, 24, 44, 0.23) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    margin: 5px 20px;
+    padding: 20px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-link {
+    display: flex;
+    align-items: center;
+}
+
+.profile-link span {
+    margin: 10px;
+}
+
+.profile-list {
+    background-color: #fff;
+    box-shadow: rgba(192, 189, 189, 0.096) 0px 0px 0px 2px, rgba(6, 24, 44, 0.23) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    margin: 5px 20px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.profile-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-details {
+    flex-grow: 1;
+    padding: 0 20px;
+}
+
+.home-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.list-row {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+}
+
+.list-row div {
+    margin: 20px;
+}
+
+.list-changes {
+    display: flex;
+    flex-direction: row;
+}
+
+.list-changes a {
+    margin: 5px;
+}
+
+.list-row .list-img {
+    margin: 20px;
+}
+
+.list-labels Button {
+    margin: 5px;
+}
+
+/* property card */
+
+.container-propertycard {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Edit Business Profile */
+
+
+.edit-container {
+    margin-top: 20px;
+    padding: 50px;
+    max-width: 1000px;
+    box-shadow: rgba(192, 189, 189, 0.096) 0px 0px 0px 2px, rgba(6, 24, 44, 0.23) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.edit-Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.edit-link {
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-link Button {
+    text-decoration: none;
+    color: #173042;
+}
+
+/* Search */
+
+.background-img {
+    width: 100%;
+    height: 40vh;
+    background-image: url('../CardImgOverlay.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.content-cust {
+    padding: 80px 80px;
+    color: white;
+}
+
+.content-cust h3 {
+    font-size: 2rem;
+}
+
+.content-cust p {
+    width: 50%;
+    font-size: 1rem;
+}
+
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.filter-container {
+    margin: 50px;
+    padding: 10px;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+#dropdown-basic-button{
+    background-color: #fff;
+    border-color: #fff;
+    color: #173042}
