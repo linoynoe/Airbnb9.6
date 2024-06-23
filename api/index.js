@@ -7,7 +7,7 @@ import cookieParser from 'cookie-parser';
 import path from 'path';
 
 // המחרוזת להתחברות ל-MongoDB
-const mongoURI = 'mongodb+srv://tslilaharon1:0MWxhcPOT2ZhJCbC@home-link.4lwapet.mongodb.net/?retryWrites=true&w=majority&appName=home-link';
+const mongoURI = 'mongodb+srv://linoynoe1412:bewwTMGBW26ySwh1@cluster0.smajmyp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 
 mongoose.connect(mongoURI).then(() => {
     console.log('connected to MongoDB')
